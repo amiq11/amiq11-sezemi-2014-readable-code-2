@@ -109,6 +109,7 @@ int main(int argc, char *argv[])
     }
     /* set args to each variants */
     const char *recipe_path = argv[1];
+    /* read and print */
     recipe_list_t *recipe_list = read_recipe_from_file(recipe_path);
     print_recipes(recipe_list);
     return 0;
